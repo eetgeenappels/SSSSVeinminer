@@ -1,10 +1,9 @@
-package nl.eetgeenappels.fabric;
+package nl.eetgeenappels.ssssv.fabric;
 
 import net.fabricmc.api.ModInitializer;
+import nl.eetgeenappels.ssssv.SSSSVCommon;
 
-import nl.eetgeenappels.ExampleMod;
-
-public final class ExampleModFabric implements ModInitializer {
+public final class SSSSVFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -12,6 +11,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+        SSSSVCommon.init();
     }
 }

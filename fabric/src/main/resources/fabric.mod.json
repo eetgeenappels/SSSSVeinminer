@@ -1,29 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "ssss_veinminer",
+  "id": "ssssvm",
   "version": "${version}",
   "name": "SSSS Veinminer",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "ee"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/ssss_veinminer/icon.png",
+  "icon": "assets/ssssv/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "nl.eetgeenappels.fabric.ExampleModFabric"
-    ],
-    "client": [
-      "nl.eetgeenappels.fabric.client.ExampleModFabricClient"
+      "nl.eetgeenappels.ssssv.fabric.SSSSVFabric"
     ]
   },
   "mixins": [
-    "ssss_veinminer.mixins.json"
+    "ssssv.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.1",

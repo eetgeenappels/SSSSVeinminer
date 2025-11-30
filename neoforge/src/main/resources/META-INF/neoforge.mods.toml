@@ -4,7 +4,7 @@ loaderVersion = "[4,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "ssss_veinminer"
+modId = "ssssvm"
 version = "${version}"
 displayName = "SSSS Veinminer"
 authors = "Me!"
